@@ -1,7 +1,6 @@
 # ESP8266_MAX7219_Clock
-- ESP8266_MAX7219_Clock is a digital clock project based on the ESP8266 microcontroller and a MAX7219-driven LED matrix display. 
-The system displays real-time clock information on an LED matrix and synchronizes time via an NTP server.  
-The project is designed with a modular architecture, allowing easy expansion with additional animations. 
+- ESP8266_MAX7219_Clock is a digital clock project based on the ESP8266 microcontroller and a MAX7219-driven LED matrix display. The system displays real-time clock information on an LED matrix and synchronizes time via an NTP server.  
+- The project is designed with a modular architecture, allowing easy expansion with additional animations. 
 
 ## Features
 - Synchronizes time via an NTP server.
