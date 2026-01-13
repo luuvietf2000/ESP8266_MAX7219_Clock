@@ -9,7 +9,7 @@ The project is designed with a modular architecture, allowing easy expansion wit
 - Displays information on the LED matrix modules.
 - Parameters are saved in EEPROM and can be reused after a restart.
 
-[Demo Project](include/video/Demo.mp4)
+https://github.com/user-attachments/assets/d4e5b750-0d1a-4728-a880-18d69df8f986
 
 ## Hardware Requirements
 - Esp8266-12E
