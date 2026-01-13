@@ -11,7 +11,7 @@ The project is designed with a modular architecture, allowing easy expansion wit
 
 <p align="center">
     <video width="480" controls>
-        <source src="video/Demo.mp4" type="video/mp4">
+        <source src="include/video/Demo.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video><br>
     <em>Demo Project</em>
@@ -25,21 +25,21 @@ The project is designed with a modular architecture, allowing easy expansion wit
 - Link: https://www.analog.com/media/en/technical-documentation/data-sheets/max7219-max7221.pdf
 
 <p align="center">
-    <img src="images/max7219/Typical Application Circuit.png" width="400"><br>
+    <img src="include/images/max7219/Typical Application Circuit.png" width="400"><br>
     <em>Fig 1.Typical Application Circuit</em>
 </p>
 
 - It uses SPI to send data to the MAX7219, allowing control of eight 7-segment modules, which together are equivalent to an 8×8 LED matrix.
 
 <p align="center">
-    <img src="image/max7912/Functional Diagram.png" width="400"><br>
+    <img src="include/image/max7912/Functional Diagram.png" width="400"><br>
     <em>Fig 2.Functional Diagram</em>
 </p>
 
 - The MAX7219 contains registers that store the necessary parameters for normal operation.
 
 <p align="center">
-    <img src="image/max7912/Serial-Data Format (16 Bits).png" width="400"><br>
+    <img src="include/image/max7912/Serial-Data Format (16 Bits).png" width="400"><br>
     <em>Fig 3.Serial-Data Format (16 Bits)</em>
 </p>
 
@@ -48,7 +48,7 @@ The project is designed with a modular architecture, allowing easy expansion wit
 ### Esp8266
 
 <p align="center">
-    <img src="image/esp8266/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png" width="400"><br>
+    <img src="include/image/esp8266/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png" width="400"><br>
     <em>Fig 4.Esp8266 Gpio (16 Bits)</em>
 </p>
 
