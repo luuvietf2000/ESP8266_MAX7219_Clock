@@ -206,6 +206,6 @@ const DecorData varibleDecor[] = {
 }
 ```
 
-### APP Controler
+### APP Controller
 - Coming soon. Will be updated later.
  
