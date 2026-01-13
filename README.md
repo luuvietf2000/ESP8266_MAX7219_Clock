@@ -9,13 +9,7 @@ The project is designed with a modular architecture, allowing easy expansion wit
 - Displays information on the LED matrix modules.
 - Parameters are saved in EEPROM and can be reused after a restart.
 
-<p align="center">
-    <video width="480" controls>
-        <source src="include/video/Demo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video><br>
-    <em>Demo Project</em>
-</p>
+[Demo Project](include/video/Demo.mp4)
 
 ## Hardware Requirements
 - Esp8266-12E
@@ -25,7 +19,7 @@ The project is designed with a modular architecture, allowing easy expansion wit
 - Link: https://www.analog.com/media/en/technical-documentation/data-sheets/max7219-max7221.pdf
 
 <p align="center">
-    <img src="include/images/max7219/Typical Application Circuit.png" width="400"><br>
+    <img src="include/image/max7219/Typical Application Circuit.png" width="400"><br>
     <em>Fig 1.Typical Application Circuit</em>
 </p>
 
