@@ -1,5 +1,5 @@
 # ESP8266_MAX7219_Clock
-- ESP8266_MAX7219_Clock is a digital clock project based on the ESP8266 microcontroller and a MAX7219-driven LED matrix display. The system displays real-time clock information on an LED matrix and synchronizes time via an NTP server.  
+- ESP8266_MAX7219_Clock is a digital clock project based on the ESP8266 microcontroller and a MAX7219-driven LED matrix display. The system displays real-time clock information on an LED matrix and synchronizes time via an NTP server
 - The project is designed with a modular architecture, allowing easy expansion with additional animations. 
 
 ## Features
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/d4e5b750-0d1a-4728-a880-18d69df8f986
 - Link: https://www.analog.com/media/en/technical-documentation/data-sheets/max7219-max7221.pdf
 
 <p align="center">
-    <img src="include/image/max7219/Typical Application Circuit.png" width="400"><br>
+    <img src="include/image/max7912/Typical Application Circuit.png" width="400"><br>
     <em>Fig 1.Typical Application Circuit</em>
 </p>
 
@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/d4e5b750-0d1a-4728-a880-18d69df8f986
 
 ### Hardware Connections
 
-|--------------------------|
+
 | MAX7219 Pin | ESP8266 Pin|
 |-------------|------------|
 | VCC         | 5V (Vin)   |
@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/d4e5b750-0d1a-4728-a880-18d69df8f986
 | DIN         | D7 (GPIO13)|
 | CLK         | D5 (GPIO14)|
 | CS / LOAD   | D2 (GPIO4) |
-|--------------------------|
+
 
 ### Configuration
 - You need to modify the following parameters to complete the initial setup:
