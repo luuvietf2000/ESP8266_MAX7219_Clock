@@ -45,7 +45,6 @@ int updGetPacketIncomingSize(WiFiUDP &udp, IPAddress &address, int &port){
 void udpGetPacketImcoming(WiFiUDP &udp, char packet[], int size){
     if (size){
         udp.read(packet, size);
-        packet[size] = Char_end;
     }
 }
 
